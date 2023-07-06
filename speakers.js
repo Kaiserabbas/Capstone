@@ -49,7 +49,7 @@ speakerContainer.setAttribute('class', 'speakers');
 
 // Inserting speaker container in document body
 const parent = document.body;
-parent.insertBefore(speakerContainer, parent.children[2]);
+parent.insertBefore(speakerContainer, parent.children[3]);
 
 const featuredSpeakers = document.createElement('h1');
 featuredSpeakers.setAttribute('class', 'speaker-h1');
@@ -93,6 +93,11 @@ speakers.forEach(speaker => {
   speakerp1.innerText = speaker.role;
   speakerSubContainer.appendChild(speakerp1);
 
+  const speakerHr2 = document.createElement('hr');
+  speakerHr2.setAttribute('class', 'speaker-hr-2');
+  speakerHr2.innerText = speaker.role;
+  speakerSubContainer.appendChild(speakerHr2);
+
   const speakerp2 = document.createElement('div');
   speakerp2.setAttribute('class', 'speaker-p-2');
   speakerp2.innerText = speaker.details;
@@ -100,23 +105,23 @@ speakers.forEach(speaker => {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  const thirdChild = document.querySelector('.speaker-small-container').children[3];
+  const thirdChild = document.querySelector('.speaker-small-container').children[2];
   thirdChild.classList.add('folded');
-  const fourthChild = document.querySelector('.speaker-small-container').children[4];
+  const fourthChild = document.querySelector('.speaker-small-container').children[3];
   fourthChild.classList.add('folded');
-  const fifthChild = document.querySelector('.speaker-small-container').children[5];
+  const fifthChild = document.querySelector('.speaker-small-container').children[4];
   fifthChild.classList.add('folded');
-  const sixthChild = document.querySelector('.speaker-small-container').children[6];
+  const sixthChild = document.querySelector('.speaker-small-container').children[5];
   sixthChild.classList.add('folded');
 });
 
 const foldedButton = document.createElement('button');
 foldedButton.setAttribute('class', 'more-button');
 foldedButton.innerText = 'More';
-speakerSmallContainer.insertBefore(foldedButton, speakerSmallContainer.children[2]);
+speakerSmallContainer.insertBefore(foldedButton, speakerSmallContainer.children[6]);
 
 const chevron = document.createElement('i');
-chevron.setAttribute('class', 'fa-solid fa-regular fa-chevron-down');
+chevron.setAttribute('class', 'fa-solid fa-chevron-down');
 foldedButton.appendChild(chevron);
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -124,8 +129,13 @@ document.addEventListener('DOMContentLoaded', function () {
   moreButton.addEventListener('click', function () {
     const foldedCards = document.querySelectorAll('.speaker.folded');
     foldedCards.forEach(function (card) {
-      card.style.display = card.style.display === 'none' ? 'block' : 'none';
+      card.style.display = card.style.display === 'flex' ? 'none' : 'flex';
     });
   });
+  moreButton.addEventListener('click', function () {
+    chevron.classList.toggle('fa-chevron-up');
+    chevron.classList.toggle('fa-chevron-down');
+  });
 });
+
 /* eslint-disable no-unused-vars */
