@@ -4,7 +4,6 @@
 
 <div align="center">
   <img src="./assests/udle-2022-main.webp" alt="logo" srcset="" />
-          </a>" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Urban Design & Landscape Expo 2023</b></h3>
@@ -99,7 +98,7 @@ OPen index.html using live server.
 
 👤 **Qaisar Abbas**
 
-- My Video Presentation: (https://www.loom.com/share/ff730e65243143dbbacefbd465bc5a13?sid=31c52f21-5ed3-4be5-94d5-3aa4d3739b93)
+- My Video Presentation:(https://www.loom.com/share/ff730e65243143dbbacefbd465bc5a13?sid=31c52f21-5ed3-4be5-94d5-3aa4d3739b93)
 - GitHub: [@githubhandle](https://github.com/Kaiserabbas/)
 - Twitter: [@twitterhandle](https://twitter.com/AbbasKayser)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/qaisar-abbas-21a93840/)
