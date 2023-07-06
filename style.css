@@ -189,6 +189,10 @@ header {
   font-size: 1.8rem;
 }
 
+.cards a {
+  display: none;
+}
+
 .cards hr {
   background: #ff4f38;
   margin: 15px 53% 20px 47%;
@@ -217,6 +221,7 @@ header {
   align-items: center;
   justify-content: left;
   padding: 5px 5px 5px 0;
+  grid-gap: 1.55rem;
 }
 
 .border {
@@ -499,7 +504,7 @@ header {
 
 footer {
   margin: 50px 0  50px 0;
-  padding: 10px 50px;
+  padding: 10px 20px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
@@ -755,6 +760,12 @@ footer span {
     padding: 0;
   }
 
+  .cards a {
+    display: block;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+
   .card {
     display: flex;
     flex-direction: column;
@@ -944,32 +955,28 @@ footer span {
 
   .cc :nth-child(1) {
     position: relative;
-    left: 40px;
     display: inline;
     width: 60px;
     height: 60px;
   }
 
   .cc :nth-child(2) {
-    display: inline;
-    width: 40px;
-    height: 40px;
+    display: none;
   }
 
   .cc p {
     line-height: 35px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: -1px;
   }
 
   footer span {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
   }
 
   .footer-2 {
-    margin: 50px 0 50px 0;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
@@ -977,7 +984,7 @@ footer span {
     align-items: center;
     justify-content: center;
     background-color: #24262b;
-    height: 200px;
+    height: 160px;
     color: #fff;
   }
 
@@ -990,10 +997,6 @@ footer span {
 
   .cc-2 :nth-child(1) {
     display: none;
-    position: relative;
-    left: 40px;
-    width: 60px;
-    height: 60px;
   }
 
   .cc-2 :nth-child(2) {
@@ -1004,14 +1007,15 @@ footer span {
   }
 
   .cc-2 p {
+    width: 200px;
     line-height: 35px;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 900;
     letter-spacing: -1px;
   }
 
   .footer-2 span {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
   }
 
