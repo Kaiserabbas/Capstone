@@ -132,7 +132,7 @@ If you like this project, Write to me and give me a good rating.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and Omar for helping me to create this Blog.
+I would like to thank and appreciate <a href = "https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>, as required by the <a href="https://creativecommons.org/licenses/"> Creative Commons License</a> for helping me to create this web portal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
