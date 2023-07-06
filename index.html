@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/gjl1hek.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/8c1870b6fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Urban Design & Landscape Expo</title>
+  </head>
+  <body>
+    <section class="big-main">
+      <!-- header starts here -->
+      <header>
+        <div class="logo">
+          <img
+            href="#home"
+            src="./assests/udle-2022-main.webp"
+            alt="logo"
+            srcset=""
+          />
+        </div>
+        <nav>
+          <!-- mobile navigation starts here -->
+          <div class="menu-lines">
+            <img
+              onclick="toggleDropdown()"
+              src="./assests/mobile-menu.png"
+              alt="menu-lines"
+            />
+          </div>
+          <div class="dropdown">
+            <div id="dropdownContent" class="dropdown-content">
+              <span class="close" onclick="closeDropdown()">&times;</span>
+              <a href="#home" onclick="closeDropdown()">Home</a>
+              <a href="./about.html" onclick="closeDropdown()">About</a>
+              <a href="#cards" onclick="closeDropdown()">Program</a>
+              <a href="#cards" onclick="closeDropdown()">Join</a>
+              <a href="#speakers" onclick="closeDropdown()">Speaker</a>
+            </div>
+          </div>
+          <div class="desk-ul">
+            <a href="#home" class="desk-li">News</a>
+            <a href="./about.html" class="desk-li">About</a>
+            <a href="#cards" class="desk-li">Program</a>
+            <a href="#cards" class="desk-li">Join</a>
+            <a href="#speakers" class="desk-li">Speaker</a>
+            <a href="#home" class="desk-li">ULD Compign</a>
+          </div>
+          <!-- mobile navigation endss here -->
+        </nav>
+      </header>
+      <!-- header starts here -->
+
+      <!-- home page starts here -->
+      <div id="home" class="home">
+        <div class="headline">
+          <h3>"Hello! Sharing World"</h3>
+          <h1>UNITING THE URBAN DESIGN AND LANDSCAPE EXPO 2023</h1>
+          <p class="headline-paragraph">
+            Urban Design & Landscape Expo is a prominent platform for the urban
+            design and landscape industry to expand your business in the Middle
+            East, Africa and South Asia. The event offers live product
+            showcases, knowledge exchange, and networking opportunities, all
+            alongside the prestigious Big 5 Global event.
+          </p>
+          <h2>2023.10.16(MON) ~ 19(THU)</h2>
+          <p class="foot-p">
+            @ DMG events is an organiser of face-to-face events and a publisher
+            of trade magazines for the international Construction, Energy,
+            Coatings, Transport, Hospitality & Design industries.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- home page ends here -->
+    <!-- cards starts here -->
+    <section id="cards" class="cards">
+      <p>Main Program</p>
+      <hr class="about-hr" />
+      <div class="card-group">
+        <div class="card">
+          <img src="./assests/lecture.png" class="card-img-top" alt="card" />
+          <div class="card-body">
+            <h5 class="card-title">Lecture</h5>
+            <p class="card-text">
+              Listen to the speakers from the various countries about the
+              messages of sharing and opening
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assests/Exhibition.png" class="card-img-top" alt="card" />
+          <div class="card-body">
+            <h5 class="card-title">CC Exhibition</h5>
+            <p class="card-text">
+              Appreacite various creations applying CC licence of artists,
+              organized from DMG events.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assests/forum.png" class="card-img-top" alt="card" />
+          <div class="card-body">
+            <h5 class="card-title">Forum</h5>
+            <p class="card-text">
+              Have the time to share your thoughts and opnions with experts for
+              each topic.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assests/workshop.png" class="card-img-top" alt="card" />
+          <div class="card-body">
+            <h5 class="card-title">Workshop</h5>
+            <p class="card-text">
+              Try creating your own work using open source license rather than
+              just watching it.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assests/ignite.png" class="card-img-top" alt="card" />
+          <div class="card-body">
+            <h5 class="card-title">CC Ignite</h5>
+            <p class="card-text">
+              Get opportunities to netwrok with CC affiliates around the world,
+              also after the summit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button type="button">Join Urban Design and Landscape 2023</button>
+    </section>
+    <!-- cards end here  -->
+    <!-- partners section starts here  -->
+    <section class="partner" id="partner">
+      <h1>Partners</h1>
+      <hr class="about-hr" />
+      <div class="partner-images">
+        <img src="./assests/mozilla.png" alt="mozilla" />
+        <img src="./assests/google.png" alt="google" />
+        <img src="./assests/naver.png" alt="naver" />
+        <img src="./assests/daumkakao.png" alt="daumkakao" />
+        <img src="./assests/airbnb.png" alt="airbnb" />
+      </div>
+    </section>
+    <!-- partners section ends here  -->
+
+    <!-- footer starts here  -->
+    <footer>
+      <div class="cc">
+        <img src="./assests/cc.png" alt="creative-common" />
+        <img src="./assests/cc white.png" alt="creative-common" />
+        <p>
+          creative <br />
+          commons Dubai
+        </p>
+      </div>
+      <span>2023 Creative Commons Dubai. Some Rights Reserved.</span>
+    </footer>
+    <!-- fotter ends here  -->
+
+    <script src="./script.js"></script>
+    <script src="./speakers.js"></script>
+  </body>
+</html>
