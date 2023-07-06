@@ -96,8 +96,11 @@ OPen index.html using live server.
 
 ## 👥 Authors <a name="authors"></a>
 
+- redit to <a href = "https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>, as required by the <a href="https://creativecommons.org/licenses/"> Creative Commons License</a>.
+
 👤 **Qaisar Abbas**
 
+- Webpage Link (https://kaiserabbas.github.io/Capstone/)
 - My Video Presentation:(https://www.loom.com/share/ff730e65243143dbbacefbd465bc5a13?sid=31c52f21-5ed3-4be5-94d5-3aa4d3739b93)
 - GitHub: [@githubhandle](https://github.com/Kaiserabbas/)
 - Twitter: [@twitterhandle](https://twitter.com/AbbasKayser)
